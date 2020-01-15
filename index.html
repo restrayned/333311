@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Блог о Fraemvork angular</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    .row.content {height: 2000px} /* Параметр задающий высоту сайдбару */
+    .sidenav 
+	{
+      background-color: #DCDCDC; /* Цвет фона сайдбара */
+      height: 100%; /* Параметр задающий высоту сайдбару в процентах */
+    }
+	
+    footer /* Стиль "подвала" сайта */
+	{
+      background-color: #545; /* Цвет фона */
+      color: white; /* Цвет текста в "подвале" сайта */
+      padding: 16px; /* Поля вокруг текста */
+    }
+
+    @media screen and (max-width: 767px)
+	{
+      .sidenav {
+        height: auto;
+        padding: 16px;
+      }
+      .row.content {height: auto;}
+    }
+
+   .layer1 /* Стиль основного текста */
+   {
+     width: 250px;
+    box-shadow: 7px 7px 5px rgba(0,0,0,0.6); /* Тень */
+    border-radius: 10px; /* Радиус скругления */
+    background: #DCDCDC;/* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 10px;
+   }
+  </style>
+</head>
+<body>
+ 
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Мой блог о Framework angular</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Главная</a></li>
+        <li><a href="file:///D:/М.Д.К/Страничка%20для%20работы%20в%20техникуме/Вопросы.html">Часто задаваемые вопросы и ответы на них</a></li>
+        <li><a href="#section3">Фотографии среды Framework angular</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Введите что-нибудь для поиска...">
+        <span class="input-group-btn">
+          <button> ="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>Последние сообщения</small></h4>
+      <hr>
+      <h2>Framework angular</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Отправлено Русланом, 17.12.2019, 10:17.</h5>
+      <h5><span class="label label-danger">Framework angular</span></h5><br>
+      <div class = "col-md-9 col-md-push-3">
+        <div class = "row">
+          <div class = "col-sm-4">
+            <div class="layer1">
+			<div class="col-9">
+
+    <h4>Доброго времени суток читатель, этот блог посвящен моему опыту работы с Framework angular</h4>
+              <img src = "ang2.png" class = "img-responsive">
+              <p>Что же такое Fraemvork angular? Fraemvork angular - это фреймворк, написанный на чистом JavaScript и был предназначен для отделения логики приложения от манипуляций с DOM и нацелен на динамическое обновление страниц. Тем не менее, это было не очень навязчиво: вы могли контролировать только часть страницы AngularJS. Эта инфраструктура представила множество мощных функций, позволяющих разработчику довольно легко создавать многофункциональные одностраничные приложения. В частности, была введена интересная концепция привязки данных, которая подразумевала автоматическое обновление представления при изменении модели (данных) и наоборот. Кроме того, была представлена идея директив , которая позволила придумать собственные HTML-теги, воплощенные в жизнь JavaScript.</p>
+            </div>
+			</div>
+          </div>
+        </div>
+      </div>
+
+	  <div class="col-sm-9">
+
+
+      <h4>Оставить свой коментарий:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Отправить</button>
+      </form>
+      <br><br>
+
+      <p><span class="badge">2</span> Комментарий:</p><br>
+      <div class="row">
+        <div class="col-sm-2 text-center">
+
+        </div>
+        <div class="col-sm-10">
+          <h4>Артур <small>17.12.2019 14:23</small></h4>
+          <p>Удачи в изучении Framework angular</p>
+          <br>
+        </div>
+          <br>
+          <p><span class="badge">1</span> Комментарий:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+
+            </div>
+            <div class="col-xs-10">
+              <h4>Александр <small>17.12.2019,  21:11</small></h4>
+              <p>Еще 1 человек начал изучать Framework angular, скоро мы все сможем сплаченно работать над проектами.</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Страничка создана Русланом Шарафеевым из группы И.С.-233</p>
+</footer>
+ 
+</body>
+</html>
